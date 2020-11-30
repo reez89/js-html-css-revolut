@@ -1,0 +1,109 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: lightblue;
+    font-family: 'Roboto', sans-serif;
+}
+
+#logo img {
+    height: 50px;
+}
+
+.container {
+    display: flex;
+    height: auto;
+    width: 80%;
+}
+
+#nav-left {
+    display: flex;
+    align-items: center;
+    float: left;
+    width: 50%;
+}
+
+#nav-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+
+#nav-left a,
+#nav-right a {
+    padding: 0 5px;
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+}
+
+#nav-left a.personale {
+    color: black;
+}
+
+#nav-left a:hover,
+#nav-right a:hover {
+    color: black;
+}
+
+#nav-right ul>li {
+    list-style: none;
+    text-align: center;
+    display: inline;
+}
+
+.sotto-menu {
+    display: block;
+}
+
+.funzionalta ul {
+    display: none;
+    margin: 20px 0;
+    background-color: white;
+    box-shadow: 0 10px 15px;
+    width: 50px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+/* start commented backslash hack \*/
+* html .clearfix {
+    height: 1%;
+}
+
+.clearfix {
+    display: block;
+}
+
+/* close commented backslash hack */
