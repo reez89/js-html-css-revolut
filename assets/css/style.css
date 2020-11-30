@@ -61,11 +61,19 @@ nav {
     display: inline;
 }
 
-.sotto-menu {
-    display: block;
+.container-sottomenu {
+    position: absolute;
+    top: 100%;
+    background-color: white;
+    display: none;
+    margin: 20px 0;
+    box-shadow: 0 10px 15px;
+    width: 400px;
+    text-align: left;
+    border-radius: 10px;
 }
 
-.container-sottomenu {
+.container-sottomenu-abbonamenti {
     position: absolute;
     top: 100%;
     background-color: white;
@@ -81,18 +89,10 @@ nav {
     padding: 20px;
 }
 
-.funzionalta ul {
-    display: none;
-    margin: 20px 0;
-    background-color: white;
-    box-shadow: 0 10px 15px;
-    width: 50px;
 
+.funzionalita {
+    display: inline-block;
 }
-
-
-
-
 
 
 .clearfix:after {
