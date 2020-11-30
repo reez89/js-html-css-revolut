@@ -1,11 +1,12 @@
-var mainFunzionalita = $('a.funzionalta');
-var funzionalitaList = $(' a.funzionalta > ul');
+var mainFunzionalita = $('div.funz');
+var funzionalitaList = $('div.container-sottomenu');
+
 mainFunzionalita.mouseenter(function () { 
 funzionalitaList.show();
-console.log();
+console.log(mainFunzionalita);
 });
 
 mainFunzionalita.mouseleave(function () { 
-    funzionalitaList.hide();
- })
-
+funzionalitaList.hide();
+console.log(mainFunzionalita);
+});

@@ -10,12 +10,15 @@ nav {
 
 #logo img {
     height: 50px;
+    border-radius: 10px;
 }
 
 .container {
     display: flex;
     height: auto;
     width: 80%;
+    background-color: white;
+    border-radius: 10px;
 }
 
 #nav-left {
@@ -32,6 +35,7 @@ nav {
     float: right;
     width: 50%;
     text-align: right;
+    position: relative;
 }
 
 #nav-left a,
@@ -61,23 +65,30 @@ nav {
     display: block;
 }
 
+.container-sottomenu {
+    position: absolute;
+    top: 100%;
+    background-color: white;
+    display: none;
+    margin: 20px 0;
+    box-shadow: 0 10px 15px;
+    width: 400px;
+    text-align: left;
+    border-radius: 10px;
+}
+
+.linkOne {
+    padding: 20px;
+}
+
 .funzionalta ul {
     display: none;
     margin: 20px 0;
     background-color: white;
     box-shadow: 0 10px 15px;
     width: 50px;
-    border-radius: 10px;
+
 }
-
-
-
-
-
-
-
-
-
 
 
 
